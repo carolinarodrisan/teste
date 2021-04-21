@@ -3,24 +3,24 @@
 
 int main()
 {
-    //1 Dados uma dist‚ncia e o total de litros de combustÌvel gasto por um automÛvel para percorrÍ-la,informe o consumo mÈdio.
-    //ObservaÁ„o: Apresente o resultado com 3 casas decimais de precis„o.
+    //1 Dados uma dist√¢ncia e o total de litros de combust√≠vel gasto por um autom√≥vel para percorr√™-la,informe o consumo m√©dio.
+    //Observa√ß√£o: Apresente o resultado com 3 casas decimais de precis√£o.
 
 int main(void)
 {
-    // DeclaraÁ„o de vari·veis
-    float distancia,     // Dist‚ncia percorrida
+    // Declara√ß√£o de vari√°veis
+    float distancia,     // Dist√¢ncia percorrida
           litros_usados, // Quantide de litros utilizada
           consumo_medio;
 
     // Entrada de dados
-    printf("DISTANCIA = "); scanf("%f", &distancia);
+    printf("DISTANCIA  = "); scanf("%f", &distancia);
     printf("LITROS USADOS  = "); scanf("%f", &litros_usados);
 
     // Processamento de dados
     consumo_medio = distancia / litros_usados;
 
-    // SaÌda de dados
+    // Sa√≠da de dados
     system("cls");
 
     printf("DISTANCIA        = %10.3f Km \n", distancia);
